@@ -26,6 +26,7 @@ const App = () => {
         .to("#intro-slider", {
           xPercent: "-100",
           duration: 1.3,
+          delay: 0.3,
         })
         .from("#welcome", {
           opacity: 0,
